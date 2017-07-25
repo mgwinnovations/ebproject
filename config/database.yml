@@ -74,5 +74,6 @@ production:
   pool: 5
   username: ebproject
   host: ror.mgwinnovations.com
+  database: ebproject_development
   port: 3306
   password: <%= ENV['EBPROJECT_DATABASE_PASSWORD'] %>
